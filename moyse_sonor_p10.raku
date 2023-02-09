@@ -189,7 +189,7 @@ class ÑChord {
             # following ones were found to be easier to just implement
             # by hand. See at the end of this file to see which
             # choices were available. Also included is the single
-            # ÑChord that requires a double-shart (could have been a
+            # ÑChord that requires a double-sharp (could have been a
             # double-flat).
         sub hand-set ($ñy1, $ñy2, $ñy3) {
             return ÑyChord.new(
