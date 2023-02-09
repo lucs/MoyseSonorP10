@@ -1,0 +1,19 @@
+FIXME This file needs work, a lot of it.
+
+Marcel Moyse, "De la sonorité, art et technique".
+
+This project rewrites the second exercise, starting on page 10,
+extending the range of permissible notes from B3 to C♯5, and presents
+all the three notes possibilities in a more mixed up order, to respect
+my ABC work practice (Always Be Changing).
+
+The Makefile has three targets to build three files, which will be
+placed in a subdirectory, called "gen" and created if necessary, of
+the directory where the Makefile resides. The targets are:
+
+    txt: Builds ./gen/moyse_sonor_p10.txt
+
+    txtpdf: Builds ./gen/moyse_sonor_p10.txt.pdf
+
+    ly: Builds a score, ./gen/moyse_sonor_p10.ly.pdf
+
