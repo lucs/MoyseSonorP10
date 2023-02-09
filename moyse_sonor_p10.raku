@@ -101,9 +101,10 @@ sub ñy-to-ñho ($ñy is copy) {
 }
 
 # --------------------------------------------------------------------
-# This function is used to make sure FIXME for example although ｢fes｣
+# This function is used to make sure that for example although ｢fes｣
 # is lower than ｢eis｣, their note names ｢f｣ and ｢e｣ might suggest that
-# the first is higher.
+# the first is higher. (FIXME Not clear what that means, but the code
+# needed something like it, so there it is.)
 
     # Some example returns:
     #   ｢0｣  given ｢bes｣ or ｢b｣
